@@ -1,0 +1,127 @@
+body, h1, h2, p{
+    margin:0px;   
+    font-family: 'Roboto', sans-serif;
+}
+
+
+ .main-div{
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content: center;
+    padding-bottom:50px;
+
+}
+
+#logo{
+    font-size: 55px;
+    color:#316FF6;
+    padding: 20px 0px;
+}
+
+.signup-form{
+    background-color: #fff; 
+    width:430px;
+    border-radius: 8px;
+}
+
+.heading{
+    text-align: center;
+    padding:10px;
+    border-bottom:1px solid #ccc;
+}
+
+h2{
+    padding-bottom: 5px;
+}
+
+.input-elements{
+    padding: 15px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+input, select{
+    padding:8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width:100%;
+    margin: 5px;
+    font-size: 15px;
+
+}
+.halfwidth{
+    display: flex;
+    width: 50%;
+}
+.fullwidth{
+    display: flex;
+    width: 100%
+}
+label{
+    font-size: 12px;
+    color:#606770;
+    padding:4px 5px;
+}
+.dob-div{
+    display:flex;
+    width: 100%;
+}
+.quart-width{
+    display:flex;
+    width: 100%;
+}
+
+.radio-btn{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 78%;
+    padding: 12px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.radio-label{
+    padding-bottom:0;
+    font-size:15px;
+}
+.radio-ip{
+    margin:0;
+    width:auto;
+}
+
+small{
+    font-size:11px;
+    color: #777;
+    padding: 15px 0px;
+
+}
+a{
+    text-decoration:none;
+}
+.sub-btn{
+    padding:15px 0px;
+    display:flex;
+    justify-content:center;
+    width:100%;
+}
+.signup-btn{
+    border:0px;
+    color: white;
+    background-color: #00a400;
+    padding:8px 55px;
+    border-radius:5px;
+    font-size:18px;
+    font-weight:500;
+}
+.already{
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+.acc{
+    font-size:16px;
+    font-weight: 5px;
+}
